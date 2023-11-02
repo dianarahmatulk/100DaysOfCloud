@@ -1,11 +1,18 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+**Modul 2 dan Modul 3:**
+# Modul 2 - Ekonomi dan pembayaran cloud
 
-# New post title here
+## Bagian 1 - Dasar-dasar Harga
 
-## Introduction
+  pada AWS tersedia berbagai komputasi yang tentunya tidak gratis kan, ketika kita telah menggunakan sebuah instance kita perlu juga mengeluarkan uang untuk hal tersebut. Nah untuk sistem pembayaran dalam AWS inipun cukup beragam, jadi terdapat 3 model pembayaran dengan mengacu pada 3 pendorong dasar yaitu:
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+**- Komputasi**
+  Jika kita menggunakan Komputasi sebagai pendorong kita akan membayar biaya perjam/detik sesuai dengan instance yang kita pakai.
+  
+**- Penyimpanan**
+  lain dengan Komputasi untuk model penyimpanan ini AWS akan menghiung biaya yang anda melalui banyaknya biaya yang anda gunakan, hal ini dihitung per-GB.
+  
+**- Transfer data**
+  
 
 ## Prerequisite
 
