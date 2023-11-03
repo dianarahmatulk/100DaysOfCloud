@@ -3,6 +3,8 @@
 
 ## Bagian 1 - Dasar-dasar Harga
 
+**A. Pendorong dasar**
+
   pada AWS tersedia berbagai komputasi yang tentunya tidak gratis kan, ketika kita telah menggunakan sebuah instance kita perlu juga mengeluarkan uang untuk hal tersebut. Nah untuk sistem pembayaran dalam AWS inipun cukup beragam, jadi terdapat 3 model pembayaran dengan mengacu pada 3 pendorong dasar yaitu:
 
 **- Komputasi**
@@ -12,27 +14,44 @@
   lain dengan Komputasi untuk model penyimpanan ini AWS akan menghiung biaya yang anda melalui banyaknya biaya yang anda gunakan, hal ini dihitung per-GB.
   
 **- Transfer data**
-  
+  Data yang keluar akan diberikan biaya, untuk biaya masuk tidak diberikan biaya (dengan beberapa pengecualian.). untuk pendorong dasar ini kita juga dikenai biaya per-GB.
 
-## Prerequisite
+**B. Cara Pembayaran AWS**
+
+  Setelah memngetahui pendorong dasar dari pembayaran, kita bisa berfikir jika kita akan membayar layanan komputasi sesuai dengan apa yang kita gunakan. metode pembayaran AWS dibagi menjadi 3 juga:
+  - Bayar sesuai yang anda gunakan
+    
+    pengguna bisa membayar layanan yang dikonsumsi/ digunakan oleh pengguna saja, tanpa biaya dimuka yang besar
+    
+  - Bayar lebih sedikit ketika anda melakukan pemesanan
+      ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/38717f60-feae-43b8-bd0d-38a65402e24e)
+  - bayar lebih sedikit ketika anda lebih banyak seiring berkembangnya AWS
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/c2c63182-9319-44bb-ba68-41727e5bb50e)
+  - AWS Tingkat Gratis
+      AWS juga menyediakan untuk pengguna yang ingin mendapatkan pengalaman menggunkan AWS secara gratis dengan instans mikro amazon EC2 T2 selama 1 tahun. 
+
+    
+
+## Bagian 2 - Total Biaya Kepemilikan
+
 
 ✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
 
-## Use Case
+## Bagian 3 - Penagihan
 
 - 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
 - ✍️ (Show-Me) Explain in one or two sentences the use case
 
-## Cloud Research
+## Bagian 4 - AWS Technical Support
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
 - 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+# Modul 3 - AWS Global Infrastructure
 
 ✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+## ww
 
 ![Screenshot](https://via.placeholder.com/500x300)
 
@@ -44,7 +63,7 @@
 
 ![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
+## 
 
 ✍️ (Result) Describe your personal outcome, and lessons learned.
 
