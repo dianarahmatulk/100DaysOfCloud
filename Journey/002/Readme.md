@@ -59,7 +59,15 @@ biaya server untuk perangkat keras dan perangkat lunak, serta biaya fasilitas un
 Dasbor penagihan ini memungkinkan pengguna melihat status pengeluaran AWS bulan ini sampai saat ini. dan mengidentifikasi layanan yang berkontribusi terhadap sebagian besar pengeluaran keseluruhan dan memahami tren biaya dengan baik. 
 
 Dukungan teknis
-Menyedikan 
+Menyedikan kombinasi alat dan keahlian yang unik:
+- AWS Support
+- Paket AWS Support
+Dukungan disediakan untuk:
+- Bereksperimen dengan AWS
+- Pengguna produksi AWS
+- Penggunaan AWS untuk bisnis penting
+Paduan proaktif
+- Manajer akun teknis (MAT)
 
 ## Bagian 4 - AWS Technical Support
 
