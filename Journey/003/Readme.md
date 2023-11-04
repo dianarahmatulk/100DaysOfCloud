@@ -1,7 +1,9 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Task 1 - Explore the Users dan Groups
+
+  AWS Identity and Access Management (IAM) adalah layanan web yang memungkinkan pelanggaran Amazon Web Service (AWS) mengelola pengguna dan izin pengguna dia AWS. Dengan IAM kita dapat mengelola pengguna, kredensial keamanan dan izin mengontrol secara terpusat.
 
 ## Introduction
 
