@@ -24,23 +24,42 @@
     pengguna bisa membayar layanan yang dikonsumsi/ digunakan oleh pengguna saja, tanpa biaya dimuka yang besar
     
   - Bayar lebih sedikit ketika anda melakukan pemesanan
+    
       ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/38717f60-feae-43b8-bd0d-38a65402e24e)
+
   - bayar lebih sedikit ketika anda lebih banyak seiring berkembangnya AWS
+    
 ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/c2c63182-9319-44bb-ba68-41727e5bb50e)
+
   - AWS Tingkat Gratis
       AWS juga menyediakan untuk pengguna yang ingin mendapatkan pengalaman menggunkan AWS secara gratis dengan instans mikro amazon EC2 T2 selama 1 tahun. 
 
     
 
 ## Bagian 2 - Total Biaya Kepemilikan
+  **On-premise VS Cloud**
 
+  On-premise versus cloud adalah pernyataan bagaimana mereka di-deploy. Infrastucture ini diinstall pada komputer server milik perusahaan. ada biaya yang disebut dengan biaya  modal, yang berkaitan dengan insfrastuctur tradisional. pada Infrastuctur cloud dibeli dari penyedia layanan yang membangun dan memelihara semua fasilitas. pelanggan akan membayar sesuai yang digunakan.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+  **Total Biaya Kepemilikan (TCO)**
+
+TCO adalah perkiraan keuangan untuk membantu mengidentifikasikan biaya langsung dan tidak langsung dari suatu sistem.  Jadi mengapa menggunakan TCO? 
+    Untuk membandingkan biaya menjalankan seluruh lingkungan infrastuktur atau beban kerja spesifik On-premise versus di AWS. Total biaya kepemilikan adalah Alat yang dapat digunakan untuk membandingkan, TCO meliputi biaya layanan dan biaya terkait kepemilikan layanan. Perbandingan ini dilakukan dengan tujuan untuk membuat anggaran dan membangun kasus bisnis untuk berpindah ke cloud, beberapa management pusat data meliputi:
+- biaya server untuk perangkat keras dan perangkatlunak, serta biaya fasilitas untuk menyimpan peralatan.
+- Biaya penyimpanan untuk perangkat keras, administrasi, dan fasilitas.
+- Biaya jaringan untuk perangkat keras, administrasi, dan fasilitas.
+- Selain itu, biaya tenaga kerja IT yang diperlukan untuk mengelola seluruh solusi
+
+  Pertimbangan TCO, Beberapa biaya terkait manajement pusat data meliputi:
+biaya server untuk perangkat keras dan perangkat lunak, serta biaya fasilitas untuk menyimpan peralatan.
+
 
 ## Bagian 3 - Penagihan
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Dasbor penagihan ini memungkinkan pengguna melihat status pengeluaran AWS bulan ini sampai saat ini. dan mengidentifikasi layanan yang berkontribusi terhadap sebagian besar pengeluaran keseluruhan dan memahami tren biaya dengan baik. 
+
+Dukungan teknis
+Menyedikan 
 
 ## Bagian 4 - AWS Technical Support
 
