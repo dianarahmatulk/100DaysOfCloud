@@ -10,7 +10,7 @@
 - Mengakses AWS Management Console
 - Menjelajahi Pengguna dan Grup
 - Skenario Bisnis - Menambahkan Pengguna ke Grup
-- Menemukan dan Menggunakan URL masuk IAM
+- Masuk dan Menguji Users
 - Bereksperimen dengan kebijakan akses layanan.
 
 ## Mengakses AWS Management Console
@@ -62,33 +62,36 @@ kita akan membuat konfigurasi seperti diatas dengan lab ini, kita akan menambahk
 **B. Menambahkan User-2 ke Grup EC2-Support**
 
 1. sama seperti tadi kita masuk pada tab navigasi Users Group.
-2. pilih Users dan kita pilih           
-## Try yourself
+2. Kita pilih EC2-Support lalu pilih Users dan kita pilih User-2 yang akan kita masukkan pada EC2-Support.
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/dbe9d850-a582-4512-9ec4-d03bddbd89b2)
+ 3. selanjutnya kita klik Add Users
+    ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/53e3d69a-acaf-47a5-8c3b-1730398d5933)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+**C. Menambahkan User-3 ke Grup EC2-Admin**
 
-### Step 1 — Summary of Step
+1. untuk menambahkan user-3 ini sama seperti sebelumnya. kita akan masuk pada menu Users Group, lalu kita pilih EC2-Admin.
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/16d98d82-c7be-48c1-8d36-3a8a28dd894b)
 
-![Screenshot](https://via.placeholder.com/500x300)
+2. kita pilih User lalu kita klik Add user, selanjutnya kita akan pilih user-3 untuk dimasukkan pada EC2-Admin
+    ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/e8f2cfcb-dbc3-4012-8546-9cafc56ae986)
 
-### Step 1 — Summary of Step
+## Masuk dan Menguji Users
+  disini kita akan mencoba untuk login dengan Users yang sudah kita masukkan pada group sesuai dengan fungsinya, saya akan memberikan contoh untuk User-1 saja. pertama kita lihat pada navigasi di sebelah kiri. kita pilih dashboard dan kita liat disana terdapat tulisan sebagai berikut:
+  
+  ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/4c3199f8-57ce-484d-835f-c5435e12eff9)
 
-![Screenshot](https://via.placeholder.com/500x300)
+kita salin URL tersebut lalu kita buka jendela baru dengan mode penyamaran. kita salin kesana lalu enter. Selanjutnya, kita akan masuk sebagai user-1, yang telah direkrut sebagai staf dukungan penyimpanan Amazon S3 Anda. lalu Masuk dengan:
+- Nama pengguna IAM: user-1
+- Kata sandi: Lab-Password1
+  ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/03d9f93c-479f-4771-b7b4-d42625977b4e)
 
-### Step 3 — Summary of Step
+  kita klik sign in. selanjutnya kita akan masuk dalam lab dengan nama user-1, kita masuk pada S3 dan kita akan membuat bucket pada S3. Seperti gambar berikut:
+  ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/dc60bbac-cfa6-42e1-9f82-695ebc7ea4d1)
 
-![Screenshot](https://via.placeholder.com/500x300)
+isikan nama untuk bucket kita terserah, sesuai dengan keinginan kalian atau ikuti instruksi dari gambar dibawah: 
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/e916eac0-b715-451d-8611-bb002cffdc55)
 
-## ☁️ Cloud Outcome
+setelah kita buat lalu kita simpan dengan mengeklik Choose bucket, setelah kita save seharusnya kita tidak dapat membuat bucket tersebut karena pada User-1 hanya memiliki akses **ReadOnly** di group S3-Support.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[link drive nya kaka](https://docs.google.com/document/d/1axsQ0lNZzaFj-FNlDvIcr2ZmF42cJQ6MLlSoc3l62BE/edit)
