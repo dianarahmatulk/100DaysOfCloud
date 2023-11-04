@@ -52,9 +52,8 @@ TCO adalah perkiraan keuangan untuk membantu mengidentifikasikan biaya langsung 
 
   Pertimbangan TCO, Beberapa biaya terkait manajement pusat data meliputi:
 biaya server untuk perangkat keras dan perangkat lunak, serta biaya fasilitas untuk menyimpan peralatan.
-
-
-## Bagian 3 - Penagihan
+ 
+**Dashbor Penagihan AWS**
 
 Dasbor penagihan ini memungkinkan pengguna melihat status pengeluaran AWS bulan ini sampai saat ini. dan mengidentifikasi layanan yang berkontribusi terhadap sebagian besar pengeluaran keseluruhan dan memahami tren biaya dengan baik. 
 
@@ -68,38 +67,65 @@ Dukungan disediakan untuk:
 - Penggunaan AWS untuk bisnis penting
 Paduan proaktif
 - Manajer akun teknis (MAT)
+Praktik terbaik:
+- AWS Trusted Advisor
+Bantuan Akun:
+- AWS Support Concierge
 
-## Bagian 4 - AWS Technical Support
+## Bagian 3 - AWS Organization
+  AWS Organizations adalah layanan manajemen akun yang memungkinkan Anda menggabungkan beberapa akun AWS ke sebuahorganisasiyang Anda buat dan kelola secara terpusat. AWS Organizations meliputi tagihan terkonsolidasi dan kemampuan manajemen akun yang membantu Anda memenuhi anggaran, keamanan, dan kebutuhan kepatuhan bisnis Anda dengan lebih baik.
+  
+  Manfaat utama AWS Organizations adalah:
+  - Mengelola kebijakan akses secara terpusat di beberapa akun AWS.
+  - Mengontrol akses ke layanan AWS.
+  - Mengautomasi pembuatan dan pengelolaan akun AWS.
+  - Tagihan terkonsolidasi di beberapa akun AWS.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+  Fitur utama dan manfaat memungkinkan anda untuk membuat service control policies (SCP) untuk mengontrol pengguna layanan AWS di beberapa akun AWS secara terpusat, dapat membuat grup akun dan kemudian melampirkan kebijakan ke dalam gruop untuk memastikan kebijakan yang benar. dan masih banyak yang lainya.
+  Keamanan dengan AWS Organizations. tidak menggantikan kebijakan AWS Identity dan Access Management, terkait pengguna, grup dan peran dalam akun AWS.
+  Dengan kebijakan IAM, kita dapat mengizinkan atau menolak akses ke layanan AWS. Sebaliknya, di Organization kita perlu menggunakan service Control Policies (SCP) untuk membuat sebuah kebijakan.
+ 
+  **Penyimpanan Organisasi**
+
+  proses ini mengasumsikan bahwa Anda memiliki akses ke dua akun AWS yang ada, dan Anda dapat masuk ke setiap akun sebagai administrator.
+  Tinjau langkah-langkah ini untuk menyiapkan AWS Organizations:
+  •Langkah 1 adalah membuat organisasi Anda dengan akun AWS Anda saat ini sebagai akun master. Anda juga mengundang satu akun AWS untuk bergabung dengan organisasi Anda dan membuat akun lain sebagai akun anggota.
+  •Langkah 2 adalah membuat dua unit organisasi dalam organisasi baru Anda dan menempatkan akun anggota di OU tersebut.
+  •Langkah 3 adalah membuat service control policies yang memungkinkan Anda menerapkan batasan tindakan apa yang dapat didelegasikan kepada pengguna dan peran dalam akun anggota. Kebijakan kontrol layanan adalah jenis kebijakan kontrol organisasi.
+  •Langkah 4 adalah menguji kebijakan organisasi Anda. Masuk sebagai pengguna untuk masing-masing peran (seperti OU1 atau OU2) dan lihat bagaimana service control policies ini memengaruhi akses akun. Atau, Anda dapat menggunakan simulator kebijakan IAM untuk menguji dan memecahkan masalah IAM dan kebijakan berbasis sumber daya yang melekat pada pengguna, grup, atau IAM role di akun AWS Anda
 
 # Modul 3 - AWS Global Infrastructure
+  
+  Amazon Web Services (AWS) memiliki infrastruktur global yang sangat luas dan kompleks yang didesain untuk menyediakan layanan cloud kepada pelanggan di seluruh dunia. Infrastruktur global AWS mencakup sejumlah wilayah geografis, zona availabilitas, dan pusat data yang terhubung untuk menyediakan layanan cloud yang andal, cepat, dan aman. Berikut adalah beberapa komponen utama dari infrastruktur global AWS:
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+**Wilayah (Region):**
 
-## ww
+AWS terdiri dari beberapa wilayah di seluruh dunia, yang masing-masing adalah lokasi fisik yang terpisah dan independen. Setiap wilayah memiliki beberapa zona availabilitas.
+Setiap wilayah dilengkapi dengan pusat data, jaringan, dan infrastruktur yang dikelola secara independen. Ini memungkinkan pelanggan untuk mendekati layanan AWS dari wilayah yang paling cocok dengan lokasi geografis mereka.
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Zona Availabilitas (Availability Zone):**
 
-### Step 1 — Summary of Step
+Setiap wilayah terdiri dari satu atau lebih zona availabilitas, yang adalah lokasi fisik terpisah dengan listrik, pendingin, dan jaringan yang terpisah.
+Zona availabilitas adalah elemen penting dalam strategi AWS untuk meningkatkan ketersediaan dan ketahanan. Pelanggan dapat mendistribusikan aplikasi mereka di zona availabilitas yang berbeda untuk menjaga ketersediaan jika ada gangguan pada satu zona.
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Edge Location:**
 
-### Step 3 — Summary of Step
+Edge locations adalah titik distribusi global yang digunakan untuk caching dan menyajikan konten statis, seperti gambar dan video, kepada pengguna akhir.
+Mereka terutama terkonsentrasi di seluruh dunia untuk mengurangi latensi dan mempercepat pengiriman konten. Edge locations juga digunakan oleh layanan AWS seperti Amazon CloudFront (Content Delivery Network).
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Global Network Backbone:**
 
-## 
+AWS memiliki jaringan global yang sangat cepat dan andal yang menghubungkan seluruh wilayah, zona availabilitas, dan edge location mereka.
+Jaringan global AWS membantu dalam mendistribusikan data dengan cepat dan aman, serta memastikan ketersediaan tinggi layanan.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+**AWS Direct Connect:**
 
-## Next Steps
+AWS Direct Connect adalah layanan yang memungkinkan pelanggan untuk menghubungkan jaringan pribadi mereka langsung ke jaringan AWS, sehingga data dapat mengalir langsung antara lokasi pelanggan dan wilayah AWS tanpa melalui internet umum.
 
-✍️ Describe what you think you think you want to do next.
+**AWS Global Accelerator:**
 
-## Social Proof
+AWS Global Accelerator adalah layanan yang memungkinkan pelanggan untuk mengalokasikan alamat IP anycast yang dikelola oleh AWS ke aplikasi mereka di berbagai wilayah, sehingga memungkinkan pengalihan lalu lintas global yang sangat cepat dan andal.
+Infrastruktur global AWS dirancang untuk memberikan fleksibilitas, ketersediaan, dan kinerja terbaik untuk pelanggan mereka di seluruh dunia. Pelanggan dapat memilih wilayah dan zona availabilitas yang sesuai dengan kebutuhan mereka, dan AWS menyediakan alat dan layanan untuk mengelola aplikasi mereka dengan efisien di seluruh infrastruktur global mereka.
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[diambil dari sini](https://chat.openai.com/c/9f3f412a-567c-4403-8772-d528490fa855)
+[dan dari sini juga](https://awsacademy.instructure.com/courses/61312/modules/items/5410054)
