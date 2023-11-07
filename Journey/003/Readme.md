@@ -1,7 +1,7 @@
 ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/1226d6ae-7fe6-4360-838f-190e4e0f9cf0)
 
 
-# Task 1 - Explore the Users dan Groups
+# Lab 1 - Explore the Users dan Groups
 
   AWS Identity and Access Management (IAM) adalah layanan web yang memungkinkan pelanggaran Amazon Web Service (AWS) mengelola pengguna dan izin pengguna dia AWS. Dengan IAM kita dapat mengelola pengguna, kredensial keamanan dan izin mengontrol secara terpusat.
 
