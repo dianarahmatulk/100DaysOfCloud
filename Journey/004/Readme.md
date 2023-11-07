@@ -1,15 +1,21 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Modul 4 - Keamanan AWS Cloud
 
-## Introduction
+## Daftar Isi
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- model tanggung jawab bersama AWS
+- AWS Identity and access management (IAM)
+- Mengamankan akun AWS baru
+- Mengamankan Akun
+- Mengamankan data di AWS
+- Berupaya memastikan kepatuhan
 
-## Prerequisite
+## Bagian 1 - Model tanggung jawab bersama AWS
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Model tanggung jawab bersama ini dirancang untuk membantu meringankan beban operasional pengguna. Namun pelanggan juga tetap bertanggung jawab untuk beberapa aspek keamanan secara keseluruhan.  
+
 
 ## Use Case
 
