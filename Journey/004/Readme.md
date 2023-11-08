@@ -52,18 +52,13 @@ IAM adalah alat yang secara terpusat mengelola akses untuk meluncurkan, mengkonf
 ## Bagian 3 - Mengamankan akun AWS baru
 
 
-
-## Bagian 4 - Mengamankan Akun 
-
+## Bagian 4 - Mengamankan data di AWS
 
 
-## Bagian 5 - Mengamankan data di AWS
+## Bagian 5 - Bekerja untuk memastikan kepatuhan
 
 
-## Bagian 6 - Bekerja untuk memastikan kepatuhan
-
-
-## Bagian 7 - Layanan keamanan dan sumber daya tambahan
+## Bagian 6 - Layanan keamanan dan sumber daya tambahan
 
 
 ## ☁️ Cloud Outcome
