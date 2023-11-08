@@ -76,7 +76,10 @@ MFA memeberikan keamanan tingkat lanjut, dengan MFA Pengguna dan system harus me
 
 **Otoritasi: Tindakan yang diizinkan**
 
-Otoritasi merupakan proses menentukan izin yang harus diberikan 
+Otoritasi merupakan proses menentukan izin yang harus diberikan untuk pengguna,  
+
+**Kebijakan IAM**
+
 
 ## Bagian 3 - Mengamankan akun AWS baru
 
