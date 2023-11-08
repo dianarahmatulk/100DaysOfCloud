@@ -47,7 +47,36 @@ meskipun Infrastuktur cloud sudah dijamin dan dikelola oleh AWS, pengguna juga b
       
 ## Bagian 2 - AWS Identity dan Access Management (IAM)
 
-IAM adalah alat yang secara terpusat mengelola akses untuk meluncurkan, mengkonfigurasi, mengelola serta mengakhiri sumber daya akun AWS anda. Memungkinkan anda untuk mengontrol akses ke komputasi, penyimpanan, basis data dan layanan aplikasi di AWS Cloud. IAM sendiri digunakan 
+IAM adalah alat yang secara terpusat mengelola akses untuk meluncurkan, mengkonfigurasi, mengelola serta mengakhiri sumber daya akun AWS anda. Memungkinkan anda untuk mengontrol akses ke komputasi, penyimpanan, basis data dan layanan aplikasi di AWS Cloud. IAM sendiri digunakan untuk mengelola sumber daya yang dapat diakses oleh siapa dan bagaimana sumber daya ini dapat diakses.
+
+**IAM merupakan komponen penting**
+
+untuk memahami cara menggunakan IAM sebagai alat keamanan akun AWS, penting untuk memahami peran dan fungsi dari masing masing dari empat komponen IAM berikut:
+
+- pengguna IAM: Orang atau aplikasi yang ditentukan dalam akun AWS dan harus membuat panggilan API ke produk.
+
+- Grub IAM: Merupakan kumpulan pengguna IAM, kita dapat menggunakan grub IAM untuk menyederhanakan penentuan dan pengelolaan izin untuk beberapa pengguna.
+  
+- Kebijakan IAM: Berisi dokumen yang menetapkan izin untuk menentukan apa yang dapat dilakukan pengguna di akun AWS.
+  
+- IAM role: Alat yang digunakan sebagai akses sementara ke sumber daya AWS tertentu dalam akun AWS.
+
+**Autentikasi sebagai pengguna IAM untuk mendapat akses**
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/d998440d-8f2a-4020-8adc-04c3a1c883c5)
+
+Autentikasi merupakan konsep keamanan komputer dasar yang berarti pengguna harus membuktikan identitas mereka. Untuk menentukan pengguna IAM, kita bisa memilih jenis akses apa yang diizinkan bagi pengguna untuk mengakses sumber daya AWS. Kita bisa menetapkan dua jenis akses kepada pengguna yaitu:
+
+- Akses Program: pengguna akan diminta untuk menunjukkan access key ID dan secret access key, ketika mereka melakukan panggilan API AWS dengan memnggunakan AWS CLI, AWS SDK, atau beberapa alat pengembangan lainya.
+  
+- AWS Manangement console: pengguna IAM akan diminta untuk mengisi bidang yang muncul di jendela masuk browser. pengguna akan dimintai 12 digit ID. Pengguna juga harus memasukkan nama pengguna dan kata sandi IAM. Mereka juga dimintai kode autentikasi.
+
+**IAM MFA**
+
+MFA memeberikan keamanan tingkat lanjut, dengan MFA Pengguna dan system harus memberikan token MFA. Pilihan untuk membuat token autentikasi MFA mencakup aplikasi yang kompatible dengan MFA Virtual.
+
+**Otoritasi: Tindakan yang diizinkan**
+
+Otoritasi merupakan proses menentukan izin yang harus diberikan 
 
 ## Bagian 3 - Mengamankan akun AWS baru
 
