@@ -76,21 +76,92 @@ MFA memeberikan keamanan tingkat lanjut, dengan MFA Pengguna dan system harus me
 
 **Otoritasi: Tindakan yang diizinkan**
 
-Otoritasi merupakan proses menentukan izin yang harus diberikan untuk pengguna,  
+Otoritasi merupakan proses menentukan izin yang harus diberikan untuk pengguna, layanan maupn aplikasi. Untuk menetapkan izin kepada pengguna, grub, atau peran. pengguna harus membuat kebijakan IAM arena tidak ada izin default. Prinsip **hak istimewa terendah** adalah konsep penting dalam keamanan komputer. ini akan memberikan hak istimewa pengguna minimal yang diperlukan untuk pengguna, berdasarkan kebutuhan pengguna nantinya. 
 
 **Kebijakan IAM**
 
+Kebijakan IAM adalah pernyataan resmi izin yang akan diberkan kepada entitas. kebijakan dapat dilampirkan ke setiap Pengguna, grub, peran, atau sumber daya. kita dapat melampirka kebijakan untuk sumber daya AWS uang akan memblokir semua permintaan yang tidak berasal dari kisaran alamat internet protocol(IP) disetujui.
+Terdapat dua jenis kebijakan IAM 
+1. Kebijakan berbasis identitas: kebijakan ijin yang dapat kita lampirkan pada pelaku atau identitas, seperti pengguna peran, atau grup IAM. kebijakan ini dikategorikan lebih lanjut sebagai:
+   - kebijakan terkelola
+   - kebijakan inline 
+3. Kebijakan berbasis sumber daya: merupakan kebijakan JSON yang kita lampirkan pada sumber daya, sepert bucket amazon S3.
 
 ## Bagian 3 - Mengamankan akun AWS baru
 
+**Akses pengguna root akun AWS versus akses IAM**
+
+Ketika kita membuat akun AWS, kita pasti memulai dengan identitas masuk tunggal yang memiliki akses lengkap ke semua layanan dan sumber daya AWS di akun tersebut. Identitas yang kita buat ini disebut sebagai **pengguna root akun AWS** pengguna root akun AWS ini memiliki kendali penuh atas segala sumber daya di akun. oeh karena itu pengguna root ini tidak boleh dipakai untuk interaksi sehari-hari
+Maka disini AWS merekomendasikan agar kita menggunakan IAM untuk membuat user tambahan, kita bisa membuat pengguna sesuai dengan apa yang kita telah berikan. kita bisa membuat grub administratif yang nantiya akan berisi hal-hal yang dapat diakukan user tersebut. 
+
+**Mengamankan akun AWS baru**
+ada banyak macam yang perlu kita amankan di dalam AWS, beberapa hal itu akan dijelaskan dibawah ini:
+1. Pengguna root akun
+   Berikut cara untuk mengamankan akun pengguna root adalah. behenti menggunakan root sesegera mungkin, cara berhenti menggunakan root sebagai berikut;
+       - login dengan root, buatlah pengguna IAM untuk kita sendiri, simpan access key.
+       - buat grup IAM, Beri izin administrator penuh, tambahkan pengguna IAM ke grub.
+       - nonaktifkan dan hapus access key pengguna root akun, jika ada.
+       - aktifkan sandi untuk pengguna.
+       - masuk dengan kredensial pengguna IAM yang telah anda buat.
+       - simpan kredensial pengguna root akun anda ditempat yang aman.
+   
+2. MFA
+   Mengaktifkan otentikasi multifaktor (MFA), Memerlukan MFA untuk semua pengguna IAM, kita juga dapa menggunakan MFA untuk mengontrol akes ke API layanan AWS. berikut adalah pilihan API untuk mengambil token MFA:
+    - Aplikasi yang kompaible dengan MFA virtual:
+      - Google Authenticator
+      - Aunty Authenticator (Aplikasi Windows Phone)
+    - Perangkat kunci keamanan U2F
+      - Yubikey
+    - Opsi MFA perangkat keras
+      - key fob oleh Gemalto
+        
+3. AWS CloudTrail
+   Gunakan AWS CloudTrail untuk melacak aktivitas pengguna di akun anda, Berikut ini cara untuk mengakses CloudTrail:
+       - masuk ke AWS manangement console dan pilih layanan CloudTrail
+       - klik riwayat peristiwa.
+   
+4. Laporan tagihan
+   laporan tagihan ini seperi laporan penggunaan dan Biaya pada AWS, Laporan tagihan memberikan informasi tentang penggunaan sumber daya AWS dan perkiraan biaya untuk pengguna itu. 
+
 
 ## Bagian 4 - Mengamankan data di AWS
+**Enkripsi data saat istirahat**
 
+Enkripsi data adalah alat penting untuk digunakan ketika tujuan Anda untuk melindungi data digital. Enkripsi data mengambil data yang dapat dibaca dan mengodekannya sehingga tidak dapat dibaca oleh siapa pun yang tidak memiliki akses ke kunci rahasia yang dapat digunakan untuk memecahkan kode itu. Data saat istirahat mengacu pada data yang tersimpan secara fisik pada disk atau pita.
+
+**Enkripsi data dalam transit**
+
+Data dalam transit mengacu pada data yang bergerak di seluruh jaringan. Enkripsi data dalam transit dilakukan dengan menggunakan Transport Layer Security (TLS) 1.2 dengan cipher AES-256 standar terbuka. 
+
+**Mengamankan bucket dan objek amazon S3**
+
+Secara default, semua bucket Amazon S3 bersifat pribadi dan dapat diakses hanyaoleh pengguna yang secara eksplisit diberikan akses. 
+AWS menyediakan banyak alat dan pilihan untuk mengendalikan akses ke bucket S3 atau objek, termasuk:
+- Menggunakan Blokir Akses Publik Amazon S3. Pengaturan ini menimpa kebijakan lain atau izin objek. Aktifkan Blokir Akses Publik untuk semua bucket yang tidak ingin diakses publik.
+  
+- Penulisan kebijakan IAM yang menentukan pengguna atau peran yang dapat mengakses bucket dan objek tertentu.
+  
+- Penulisan kebijakan bucketyang menentukan akses ke bucket atau objek tertentu.  Opsi ini biasanya digunakan ketika pengguna atau sistem tidak dapat mengautentikasi menggunakan IAM. 
 
 ## Bagian 5 - Bekerja untuk memastikan kepatuhan
+**Program kepatuhan AWS**
 
+AWS juga menyediakan fitur keamanan dan perjanjian hukum yang dirancang untuk membantu mendukung pelanggan dengan peraturan umum dan hukum. Salah satu contohnya adalah peraturan Health Insurance Portability and Accountability Act (HIPAA). AWS terlibat dengan badan penyertifikasi eksternal dan auditor independen untuk memberi pelanggan informasi yang memadai tentang kebijakan, proses, dan kontrol yang ditetapkan dan dioperasikan oleh AWS.
+
+**AWS Config**
+
+AWS Config adalah layanan yang memungkinkan Anda mengakses, mengaudit, dan mengevaluasi konfigurasi sumber daya AWS Anda. AWS Config terus memantau dan mencatat konfigurasi sumber daya AWS Anda dan memungkinkan Anda mengautomasi evaluasi konfigurasi tercatat terhadap konfigurasi yang diinginkan.
+
+**AWS Artifact**
+
+AWS Artifact menyediakan pengunduhan dokumen keamanan dan kepatuhan AWS sesuai permintaan, seperti sertifikasi ISO AWS, Payment Card Industry (PCI), dan laporan Service Organization Control (SOC). Anda dapat mengirimkan dokumen keamanan dan kepatuhan (juga dikenal sebagaiartefak audit) kepada auditor atau regulator Anda untuk menunjukkan keamanan dan kepatuhan infrastruktur dan layanan AWS yang Anda gunakan. 
 
 ## Bagian 6 - Layanan keamanan dan sumber daya tambahan
+**AWS Service catalog**
+
+AWS Service Catalog memungkinkan organisasi membuat dan mengelola katalog layanan IT yang disetujui untuk digunakan (misalnya, bagi karyawan Anda untuk menggunakan) pada AWS.
+
+**layanan keamanan tambahan yang dipilih**
 
 
 ## ☁️ Cloud Outcome
