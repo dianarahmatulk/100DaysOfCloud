@@ -159,21 +159,12 @@ AWS Artifact menyediakan pengunduhan dokumen keamanan dan kepatuhan AWS sesuai p
 ## Bagian 6 - Layanan keamanan dan sumber daya tambahan
 **AWS Service catalog**
 
-AWS Service Catalog memungkinkan organisasi membuat dan mengelola katalog layanan IT yang disetujui untuk digunakan (misalnya, bagi karyawan Anda untuk menggunakan) pada AWS.
+AWS Service Catalog memungkinkan organisasi membuat dan mengelola katalog layanan IT yang disetujui untuk digunakan (misalnya, bagi karyawan Anda untuk menggunakan) pada AWS. Hal ini memungkinkan pengguna Anda dengan cepat men-deploy layanan IT yang mereka butuhkan, dan dirancang agar pengguna hanya men-deploy konfigurasi yang disetujui. AWS Service Catalog dapat mendukung upaya Anda untuk mengelola layanan IT yang di-deploy, dan dapat membantu Anda mencapai tata kelola yang konsisten dan memenuhi persyaratan kepatuhan.
 
 **layanan keamanan tambahan yang dipilih**
 
+**Amazon Macie** adalah layanan keamanan yang menggunakan machine learning untuk secara otomatis menemukan, mengklasifikasikan, dan melindungi data sensitif di AWS. 
+**Amazon Inspector** adalah layanan penilaian keamanan otomatis yang membantu memperbaiki keamanan dan kepatuhan aplikasi yang di-deploy di AWS. Amazon Inspector secara otomatis menilai aplikasi untuk eksposur, kerentanan, dan penyimpangan dari praktik terbaik. 
+**Amazon GuardDutymerupakan** layanan deteksi ancaman yang secara berkelanjutan memantau aktivitas mencurigakan dan perilaku tidak bertanggung jawab untuk melindungi akun dan beban kerja AWS Anda.
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[g ada](link)
