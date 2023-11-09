@@ -1,52 +1,48 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Modul 5 - Jaringandan penyampaian konten
+Pada modul ini kita akan membahas 3 layanan dasar AWS untuk jaringan dan penyampaian konten.
 
-## Introduction
+## Modul ini membahas topik-topik berikut:
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- Dasar-dasar jaringan
+- Amazon Virtual Private Cloud (Amazon VPC)
+- Jaringan VPC
+- Keamanan VPC
+- Amazon Route 53
+- Amazon CloudFront
 
-## Prerequisite
+## Dasar-dasar jaringan
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+**1. Jaringan**
 
-## Use Case
+**2. Alamat IP**
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+**3. Alamat IPv4 dan IPv6**
 
-## Cloud Research
+**4. Classless Inter-Domain Routing (CIDR)**
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+## Amazon Virtual Private Cloud (Amazon VPC)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Jaringan VPC
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Keamanan VPC
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
+## Amazon Route 53
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+## Amazon CloudFron
+
+
 
 [link](link)
