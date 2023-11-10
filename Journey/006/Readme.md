@@ -1,5 +1,3 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
 # Modul 5 - Jaringandan penyampaian konten
 Pada modul ini kita akan membahas 3 layanan dasar AWS untuk jaringan dan penyampaian konten.
@@ -44,6 +42,12 @@ Model Open Systems Interconnection (OSI) adalah model konseptual yang digunakanu
 
 ## Amazon Virtual Private Cloud (Amazon VPC)
 
+Amazon Virtual Private Cloud (Amazon VPC) adalah layanan yang memingkinkan anda menyediakan bagian yang terisolasi secara logis dari AWS cloud. VPC ini tempat kita untuk meluncurkan mesin virtual kita. Memberikan kita kontrol atas sumber daya jaringan virtual anda termasuk pilihan rentang alamat IP kita, pembuatan subnet dan konfigurasi table route, dan gateaway jaringan.  
+
+
+Amazon VPC memungkinkan Anda menyediakan virtual private cloud (VPC). VPC adalah sebuah jaringan virtual yang terisolasi secara logis dari jaringan virtual lainnya di AWS Cloud.Sebuah VPC didedikasikan untuk akun Anda. VPC menjadi bagian dari satu Wilayah AWS dan dapat menjangkau beberapa Availability Zone.
+
+Setelah membuat VPC, Anda dapat membaginya menjadi satu subnet atau lebih. Subnet adalah rentang alamat IP dalam VPC.Subnet menjadi bagian dari satu Availability Zone. Anda dapat membuat subnet di Availability Zone yang berbeda untuk ketersediaan tinggi. Subnet umumnya diklasifikasikan sebagai publik atau privat. Subnet publikmemiliki akses langsung ke internet, tetapi subnet privat tidak.
 
 
 ## Jaringan VPC
