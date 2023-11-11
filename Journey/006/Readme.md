@@ -44,14 +44,38 @@ Model Open Systems Interconnection (OSI) adalah model konseptual yang digunakanu
 
 Amazon Virtual Private Cloud (Amazon VPC) adalah layanan yang memingkinkan anda menyediakan bagian yang terisolasi secara logis dari AWS cloud. VPC ini tempat kita untuk meluncurkan mesin virtual kita. Memberikan kita kontrol atas sumber daya jaringan virtual anda termasuk pilihan rentang alamat IP kita, pembuatan subnet dan konfigurasi table route, dan gateaway jaringan.  
 
+**Hubungan VPC dengan Subnet**
 
 Amazon VPC memungkinkan Anda menyediakan virtual private cloud (VPC). VPC adalah sebuah jaringan virtual yang terisolasi secara logis dari jaringan virtual lainnya di AWS Cloud.Sebuah VPC didedikasikan untuk akun Anda. VPC menjadi bagian dari satu Wilayah AWS dan dapat menjangkau beberapa Availability Zone.
 
 Setelah membuat VPC, Anda dapat membaginya menjadi satu subnet atau lebih. Subnet adalah rentang alamat IP dalam VPC.Subnet menjadi bagian dari satu Availability Zone. Anda dapat membuat subnet di Availability Zone yang berbeda untuk ketersediaan tinggi. Subnet umumnya diklasifikasikan sebagai publik atau privat. Subnet publikmemiliki akses langsung ke internet, tetapi subnet privat tidak.
 
+**Pemberian Alamat IP**
+Alamat IP digunakan untuk berkomunikasi satu sama lain dengan sumber daya internet. ketika kita membuat VPC, Kita harus menetapkan blok CIDR IPv4 untuk VPC kita. kita dapat mengaitkan blok CIDR IPv6 dengan VPC dan subnet dan juga menetapkan alamat IPv6 dari block tersebut ke sumber daya dalam VPC kita. 
+Saat kita membuat subnet kita memerlukan block CIDR-nya sendiri, untuk setiap blok CIDR yang kita tentukan AWS akan mencadangkan 6 alamat IP dalam block tersebut. AWS mencadangkan alamat IP ini untuk: 
 
+- Alamat jaringan
+- Perute local VPC (komunikasi internal)
+- Resolusi DNS
+- Penggunaan di masa mendatang
+- Alamat siaran jaringan 
+
+Setiap kita membuat VPC, maka pada masing-masing instans di VPC tersebut mendapatkan alamat IP pribadi secara otomatis. kita juga bisa meminta alamat IP publik untuk diterapkan saat membuat instans dengan mengubah alamat IP publik otomatis subnet.
+maka alamat IP dibagi menjadi beberapa jenis yaitu. 
+
+ - Alamat IPv4 Publik
+     - Ditetapkan secara manual melalui alamat IP Elastis
+     - Ditetapkan secara otomatis melalui pengaturan penetapan alamat IP Publik otomatis di              tingkat subnet.
+ - Alamat IP Elastis
+     - berkaitan dengan akun AWS
+     - Dapat dialokasikan dan di petakan ulang kapan saja
+     - biaya tambahan mungkin berlaku.
+
+   untuk bagian IP kita juga akan bekenalan dengan antarmuka jaringan elastis, **Antarmuka Jaringan Elastis** adalah sebuah antarmuka jaringan virtual yang dapat kita lampirkan atau lepaskan dari instans dalam VPC.
+   Lanjut kita berkenalan dengan Table route yang merupakan sekumpulan aturan(disebut rute) yang mengarahkan lalu lintas jaringan dari subnet kita, setiap route akan menetukantujuan target.
+    
 ## Jaringan VPC
-
+Jaringan VPC ini berisika
 
 ## Keamanan VPC
 
