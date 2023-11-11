@@ -129,6 +129,7 @@ Infrastruktur global AWS dirancang untuk memberikan fleksibilitas, ketersediaan,
 mengelola aplikasi mereka dengan efisien di seluruh infrastruktur global mereka.
 
 ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/a698c9b8-bbc5-49ad-8b94-8d36d8ed383a)
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/5d92f56b-61e6-43ef-91e4-b4a3f4ba259b)
 
 
 [diambil dari sini](https://chat.openai.com/c/9f3f412a-567c-4403-8772-d528490fa855)
