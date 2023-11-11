@@ -125,7 +125,11 @@ AWS Direct Connect adalah layanan yang memungkinkan pelanggan untuk menghubungka
 **AWS Global Accelerator:**
 
 AWS Global Accelerator adalah layanan yang memungkinkan pelanggan untuk mengalokasikan alamat IP anycast yang dikelola oleh AWS ke aplikasi mereka di berbagai wilayah, sehingga memungkinkan pengalihan lalu lintas global yang sangat cepat dan andal.
-Infrastruktur global AWS dirancang untuk memberikan fleksibilitas, ketersediaan, dan kinerja terbaik untuk pelanggan mereka di seluruh dunia. Pelanggan dapat memilih wilayah dan zona availabilitas yang sesuai dengan kebutuhan mereka, dan AWS menyediakan alat dan layanan untuk mengelola aplikasi mereka dengan efisien di seluruh infrastruktur global mereka.
+Infrastruktur global AWS dirancang untuk memberikan fleksibilitas, ketersediaan, dan kinerja terbaik untuk pelanggan mereka di seluruh dunia. Pelanggan dapat memilih wilayah dan zona availabilitas yang sesuai dengan kebutuhan mereka, dan AWS menyediakan alat dan layanan untuk 
+mengelola aplikasi mereka dengan efisien di seluruh infrastruktur global mereka.
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/a698c9b8-bbc5-49ad-8b94-8d36d8ed383a)
+
 
 [diambil dari sini](https://chat.openai.com/c/9f3f412a-567c-4403-8772-d528490fa855)
 [dan dari sini juga](https://awsacademy.instructure.com/courses/61312/modules/items/5410054)
