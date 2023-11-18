@@ -1,11 +1,16 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![placeholder image](https://via.placeholder.com/120x60)
 
-# New post title here
+# Modul 6 : Komputasi
+Pada modul ini kita akan membahas tentang layanan-layanan computing AWS di cloud, kita juga akan diberikan akses untuk mencoba AWS EC2 untuk membangun lingkungan komputasi virtual.
+## Topik yang akan dibahas
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- Tinjauan umum layanan komputasi
+- Amazon EC2
+- Amazon EC2 Cost Optimization
+- Layanan kontainer
+- pengantar AWS Lambada
+- Pengantar AWS Elastic Beanstalk
 
 ## Prerequisite
 
