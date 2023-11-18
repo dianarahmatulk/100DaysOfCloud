@@ -166,5 +166,6 @@ AWS Service Catalog memungkinkan organisasi membuat dan mengelola katalog layana
 **Amazon Macie** adalah layanan keamanan yang menggunakan machine learning untuk secara otomatis menemukan, mengklasifikasikan, dan melindungi data sensitif di AWS. 
 **Amazon Inspector** adalah layanan penilaian keamanan otomatis yang membantu memperbaiki keamanan dan kepatuhan aplikasi yang di-deploy di AWS. Amazon Inspector secara otomatis menilai aplikasi untuk eksposur, kerentanan, dan penyimpangan dari praktik terbaik. 
 **Amazon GuardDutymerupakan** layanan deteksi ancaman yang secara berkelanjutan memantau aktivitas mencurigakan dan perilaku tidak bertanggung jawab untuk melindungi akun dan beban kerja AWS Anda.
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/875a5f6d-bb63-4e03-9b02-036f6ff8f3a7)
 
 [g ada](link)
