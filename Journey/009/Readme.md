@@ -1,21 +1,34 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Modul 7 - Penyimpanan
 
-## Introduction
+Penyimpanan cloud adalah komponen penting dari komputasi cloud karena menyimpan informasi yang digunakan aplikasi. Analitik big data, data warehouse, Internet untuk Segala (IoT), basis data, dan aplikasi pencadangan dan pengarsipan seluruhnya bergantung pada beberapa bentuk arsitektur penyimpanan data. Tujuan dari modul ini adalah untuk menemukan konsep-konsep kunci yang berhubungan dengan penyimpanan. 
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Isi dari Modul
+- Amazon Elastic Block Store(EBS)
+- Amazon Simple Storage Service(S3)
+- Amazon Elastic File System(EFS)
+- Amazon Simple Storage Service Glacier
 
-## Prerequisite
+## Layanan AWS Inti
+penyimpanan merupakan layanan inti AWS lain. Beberapa kategori penyimpanan yang luas meliputi 
+- tempat penyimpanan instans( penyimpanan sementara), merupakan penyimpanan sementara yang ditambahkan ke amazon EC2 instance.
+  
+- Amazon EBS, penyimpanan dapat dipasangpersistenyang dapat dipasang sebagai perangkat untuk Amazon EC2 instance. Hanya dapat dipasang ke EC2 Instance dengan Availibility Zone yang sama.
+    
+- Amazon EFS, sistem file bersama yang dapat dipasangi beberapa Amazon EC2 instance secara bersamaan.
+  
+- Amazon S3, penyimpanan persisten tempat setiap file menjadi objek dan tersedia melalui Uniform Resource Locator (URL); dapat diakses dari mana saja.
+  
+- Amazon S3 Glacier, adalah penyimpanan dingin bagi data yang jarang diakses (misalnya, ketika Anda membutuhkan penyimpanan data jangka panjang untuk alasan arsip atau kepatuhan).
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## Amazon EBS (Elastic Block Store)
+Amazon EBS memberikan volume penyimpanan tingkat blok yang persisten untuk digunakan dengan Amazon EC2 instance. Penyimpanan persisten adalah perangkat penyimpanan data yang menyimpan data setelah daya ke perangkat dimatikan. Terkadang, ini juga disebut penyimpanan non-volatile. Penyimpanan ini dirancang untuk ketersediaan dan ketahanan yang tinggi. Volume EBS menawarkan kinerja konsisten dan berlatensi rendah yang diperlukan untuk menjalankan beban kerja kita.
+kita dapat menaikkan atau menurunkan skala penggunaan kita dalam hitungan menit, semuanya dengan harga murah sesuai yang kita sediakan.
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
+penyimpanan blok vs penyimpanan objek
+apa
 ## Cloud Research
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
