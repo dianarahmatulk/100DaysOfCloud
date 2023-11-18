@@ -75,10 +75,16 @@ maka alamat IP dibagi menjadi beberapa jenis yaitu.
    Lanjut kita berkenalan dengan Table route yang merupakan sekumpulan aturan(disebut rute) yang mengarahkan lalu lintas jaringan dari subnet kita, setiap route akan menetukantujuan target.
     
 ## Jaringan VPC
-Jaringan VPC ini berisika
+Jaringan VPC ini berisikan
 
 ## Keamanan VPC
+Grup keamanan bertindak sebagai firewall virtual bagi instans, serta mengontrol lalu lintas masuk dan keluar.Grup keamanan bertindak pada tingkat instans, bukan tingkat subnet. Oleh karena itu, setiap instans di subnet di VPC Anda dapat ditetapkan ke rangkaian grup keamanan yang berbeda. 
 
+Grup keamanan memiliki aturanyang mengontrol lalu lintas masuk dan keluar. Saat Anda membuat grup keamanan, grup tersebut tidak memiliki aturan masuk. Oleh karena itu, tidak ada lalu lintas masuk yang berasal dari host lainnya ke instans Anda yang diizinkan, hingga Anda menambahkan aturan masuk ke grup keamanan. Grup Keamanan default menolak semua lalu lintas masuk dan mengizinkan semua lalu lintas keluar. Grup keamanan bersifat stateful yang berarti bahwa informasi status disimpan bahkan setelah permintaan diproses.
+
+Access control list jaringan (ACL jaringan)adalah lapis keamanan opsional untuk Amazon VPC Anda.Ini bertindak sebagai firewall untuk mengendalikan lalu lintas masuk dan keluar dari satu subnet atau lebih. Setiap subnet di VPC Anda harus dikaitkan dengan ACL jaringan. Jika Anda tidak mengaitkan subnet dengan ACL jaringan secara eksplisit, subnet dikaitkan dengan ACL jaringan default secara otomatis. 
+
+- ACL jaringan memiliki aturan masuk dan keluar yang terpisah, dan setiap aturan dapat mengizin 
 
 
 ## Amazon Route 53
@@ -107,6 +113,10 @@ Sebuah jaringan penyampaian konten (CDN) adalah sistem server pembuatan cache ya
 
 Amazon CloudFront adalah layanan CDN cepat yang memberikan data, video, aplikasi, dan antarmuka pemrograman aplikasi (API) dengan aman kepada pelanggan secara global dengan latensi rendah dan kecepatan transfer yang tinggi. Hal Ini juga menyediakan lingkungan yang ramah developer. Amazon CloudFront berbeda dari solusi penyampaian konten tradisional karena memungkinkan Anda mendapatkan manfaat penyampaian konten kinerja tinggi dengan cepat tanpa kontrak negosiasi, harga tinggi, atau biaya minimum.
 
-
-
+Biaya Amazon CloudFront ditagih berdasarkan penggunaan layanan aktual di empat area:
+- Transfer Data Keluar : Dikenai biaya untuk volume data yang ditransfer keluar dari edge location Amozon CloudFront ke internet atau ke asal anda.
+- Permintaan HTTP(S) : Dibebankan untuk jumlah permintaan HTTP(S)
+- Permintaan Pembatalan Validasi : Tidak ada biaya tambahan untuk 1000 jalur pertama yang diminta untuk pembatalan validasi setiap bulan, Oleh karena itu 0,005 USD per jalur yang diminta untuk pembatalan validasi.
+- SSL Kustom IP Khusus : 600 USD per bulan untuk setiap sertifikat SSL kustom yang diasosiasikan dengan satu atau lebih distribusi CloudFront menggunakan versi IP Khusus dari dukungan sertifikasi SSL.
+  
 [link](link)
