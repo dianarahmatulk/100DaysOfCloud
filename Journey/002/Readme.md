@@ -72,7 +72,10 @@ Praktik terbaik:
 Bantuan Akun:
 - AWS Support Concierge
 
-## Bagian 3 - AWS Organization
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/29059bd0-183c-418f-b927-84c48600d678)
+
+
+# Bagian 3 - AWS Organization
   AWS Organizations adalah layanan manajemen akun yang memungkinkan Anda menggabungkan beberapa akun AWS ke sebuahorganisasiyang Anda buat dan kelola secara terpusat. AWS Organizations meliputi tagihan terkonsolidasi dan kemampuan manajemen akun yang membantu Anda memenuhi anggaran, keamanan, dan kebutuhan kepatuhan bisnis Anda dengan lebih baik.
   
   Manfaat utama AWS Organizations adalah:
@@ -128,7 +131,6 @@ AWS Global Accelerator adalah layanan yang memungkinkan pelanggan untuk mengalok
 Infrastruktur global AWS dirancang untuk memberikan fleksibilitas, ketersediaan, dan kinerja terbaik untuk pelanggan mereka di seluruh dunia. Pelanggan dapat memilih wilayah dan zona availabilitas yang sesuai dengan kebutuhan mereka, dan AWS menyediakan alat dan layanan untuk 
 mengelola aplikasi mereka dengan efisien di seluruh infrastruktur global mereka.
 
-![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/a698c9b8-bbc5-49ad-8b94-8d36d8ed383a)
 ![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/5d92f56b-61e6-43ef-91e4-b4a3f4ba259b)
 
 
