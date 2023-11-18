@@ -83,9 +83,29 @@ Jaringan VPC ini berisika
 
 ## Amazon Route 53
 
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/0c30b308-dd69-4c1e-b8b7-e0935935fb3a)
+
+Seperti sebagaimana fungsi dari Route 53 ini dirancang untuk merutekan pengguna akhir ke aplikasi internet dengan menerjemahkan nama jadi untuk pola dasar dari route 53 akan seperti diatas, jadi ketika pengguna mengajukan permintaan DNS. Resolver DNS memeriksa domain dengan route 53, mendapatkan IP lalu mengambalikan ke pengguna.
+
+Amazon Route 53 mendukung bebrapa jenis kebijakan perutean yaitu:
+ - Perutean sedrhana : menggunakan server tunggal dalam lingkungan.
+ - perutean weighted round robin : Gunakan untuk merutekan lalu lintas ke beberapa sumber daya dalam proporsi yang Anda tentukan. Memungkinkan Anda menetapkan beban ke serangkaian catatan sumber daya untuk menentukan dengan frekuensi mana respons yang berbeda dilayani.
+ - perutean latensi (LBR) : membantu meningkatkan aplikasi global kita
+ - Perutean geolokasi–Gunakan saat Anda ingin merutekan lalu lintas berdasarkan lokasi pengguna.
+ - Perutean kedekatan geografis–Gunakan saat Anda ingin merutekan lalu lintas berdasarkan lokasi sumber daya Anda dan, secara opsional, mengalihkan lalu lintas dari sumber daya di satu lokasi ke sumber daya di lokasi lain.
+ - Perutean failover (failover DNS) —Gunakan saat Anda ingin mengonfigurasi failover aktif-pasif.
+ - Perutean jawaban multinilai—Gunakan jika Anda ingin Route 53 merespons kueri DNS dengan hingga delapan catatan baik yang dipilih secara acak.
+
+Deployment Multiwilayah merupakan kasus pengguna contoh untuk AWS route 53. Dengan Amazon Route 53, pengguna secara otomatis diarahkan ke load balancerElastic Load Balancing yang paling dekat dengan pengguna.
 
 
-## Amazon CloudFron
+## Amazon CloudFront
+
+Tujuan dari jaringan adalah untuk berbagi informasi antara sumber daya yang terhubung. Sejauh ini di dalam modul ini, Anda belajar tentang jaringan VPC dengan Amazon VPC. Anda belajar tentang berbagai opsi untuk menghubungkan VPC Anda ke internet, ke jaringan jarak jauh, ke VPC lain, dan ke layanan AWS.  
+
+Sebuah jaringan penyampaian konten (CDN) adalah sistem server pembuatan cache yang didistribusikan secara global. CDN menyimpan salinan file yang biasa diminta dalam cache (konten statis, seperti Hypertext Markup Language, atau HTML; Cascading Style Sheet, atau CSS; JavaScript; dan file gambar) yang di-host di server asal aplikasi. CDN juga memberikan konten dinamis yang unik untuk pemohon dan tidak dapat disimpan di cache
+
+Amazon CloudFront adalah layanan CDN cepat yang memberikan data, video, aplikasi, dan antarmuka pemrograman aplikasi (API) dengan aman kepada pelanggan secara global dengan latensi rendah dan kecepatan transfer yang tinggi. Hal Ini juga menyediakan lingkungan yang ramah developer. Amazon CloudFront berbeda dari solusi penyampaian konten tradisional karena memungkinkan Anda mendapatkan manfaat penyampaian konten kinerja tinggi dengan cepat tanpa kontrak negosiasi, harga tinggi, atau biaya minimum.
 
 
 
