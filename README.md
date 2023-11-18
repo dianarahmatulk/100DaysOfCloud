@@ -36,8 +36,8 @@ hiii... saya Diana udah gitu aja
 - [ ] ☁️ 6 > [AWS Cloud Foundation CHP-5](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [AWS Cloud Foundation CHP-6](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [LAB 3 - Pengantar Amazon EC2](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [ ] ☁️ 9 > [AWS Cloud Foundation CHP-7](Journey/009/Readme.md)
+- [ ] ☁️ 10 > [LAB 4 - Bekerja Dengan EBS](Journey/010/Readme.md)
 
 ## Walking down the road
 
