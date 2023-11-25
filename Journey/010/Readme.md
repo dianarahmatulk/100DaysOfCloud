@@ -9,7 +9,25 @@
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/a24300a1-9195-4481-920b-08f7bdeea796)
+
+volume state e in use
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/c5119de6-279e-4d07-9d6f-f0155a2d5f95)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/72816061-78c2-4cd0-99b0-d48df0483cf5)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/38adb072-0520-454b-8a85-d8d57e22ddf6)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/55638d3f-59c6-4255-92f7-b5c144d6681d)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/9fddb983-e28b-499e-b80c-244a2f582d21)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/0f0bd982-602d-403d-a90c-e2999774e2f4)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/82a3b53d-fef6-4940-9487-f65d8b9df0c7)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/f4727a85-f816-4984-9a12-087040c1369f)
+
 
 ## Use Case
 
