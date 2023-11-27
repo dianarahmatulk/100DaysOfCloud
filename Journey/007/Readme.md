@@ -13,9 +13,14 @@ Pada modul ini kita akan membahas tentang layanan-layanan computing AWS di cloud
 - pengantar AWS Lambada
 - Pengantar AWS Elastic Beanstalk
 
-## Prerequisite
+## Gambaran Umum Layanan Komputasi
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Layanan Komputasi AWS, menawarkan banyak layanan komputasi seperti Amazon EC2, Amazon ECR, Amazon ECS, Amazon EKS dan masih banyak lainya. 
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/57ce1ede-6bd1-4438-8250-f8763fc8c456)
+
+seperti yang telah tertera pada gambar diatas kita dapat mengganggap setiap layanan dalam AWS sebagai salah satu bagian dari empat kategori besar. Mesin Virtual (VM), Layanan Infrastruktur (IaaS), Nirserver berbasis kontainer dan platform sebagai layanan (PaaS).
+
+Amazon EC2, Menyediakan mesin virtual, dan kita bisa menganggap sebagai infrastruktur layanan IaaS. Layanan IaaS memberikan 
 
 ## Use Case
 
