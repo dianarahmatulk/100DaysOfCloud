@@ -1,3 +1,4 @@
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/ad921c92-7610-4fcd-a119-73d83e2c6179)
 
 # Modul 5 - Jaringandan penyampaian konten
 Pada modul ini kita akan membahas 3 layanan dasar AWS untuk jaringan dan penyampaian konten.
