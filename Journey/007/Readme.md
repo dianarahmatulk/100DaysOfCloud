@@ -1,5 +1,6 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/120x60)
+
+![image](https://github.com/dianarahmatulk/100DaysOfCloud/assets/140806099/91777e6d-06a0-456d-bdec-a23f6679a700)
+
 
 # Modul 6 : Komputasi
 Pada modul ini kita akan membahas tentang layanan-layanan computing AWS di cloud, kita juga akan diberikan akses untuk mencoba AWS EC2 untuk membangun lingkungan komputasi virtual.
