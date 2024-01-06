@@ -76,7 +76,16 @@ maka alamat IP dibagi menjadi beberapa jenis yaitu.
    Lanjut kita berkenalan dengan Table route yang merupakan sekumpulan aturan(disebut rute) yang mengarahkan lalu lintas jaringan dari subnet kita, setiap route akan menetukantujuan target.
     
 ## Jaringan VPC
-Jaringan VPC ini berisikan
+Jaringan VPC ini merupakan komunikasi antara instans di VPC dan internet anda. Gateaway internet memiliki dua tujuan, memberikan target dalam tabel rute VPC kita untuk merutekan lalulintas internet. dan melakukan penerjemahan alamat jaringan untuk instans yang telah ditetapkan. alamat IPv4 public.
+
+**Gateaway Network Address Translation(NAT)** memungkinkan instance pada subnet privat terhubung ke internet atau layanan AWS lainya, lalu mencegah internet memulai koneksi dengan instance tersebut.
+
+**koneksi peering VPC** merupakan koneksi jaringan di antara dua VPC yang memungkinkan anda merutekan lalu lintas di antaranya secara private. instance pada masing-masing VPC akan dapat berkomunikasi satu sama lain seakan-akan berada dalam jaringan yang sama. 
+Batasan dari Peering VPC:
+- Rentang alamat IP tidak dapat tumpang tindih.
+- Peering transitif tidak didukung. Misalnya, Anda memiliki tiga VPC: A, B, dan C. VPC A terhubung ke VPC B, dan VPC A terhubung ke VPC C. Namun, VPC B tidakterhubung ke VPC C secara implisit. Untuk menghubungkan VPC B ke VPC C, Anda harus secara eksplisit menetapkan konektivitas tersebut.
+- Anda hanya dapat memiliki satu sumber daya peering di antara dua VPC yang sama.
+
 
 ## Keamanan VPC
 Grup keamanan bertindak sebagai firewall virtual bagi instans, serta mengontrol lalu lintas masuk dan keluar.Grup keamanan bertindak pada tingkat instans, bukan tingkat subnet. Oleh karena itu, setiap instans di subnet di VPC Anda dapat ditetapkan ke rangkaian grup keamanan yang berbeda. 
